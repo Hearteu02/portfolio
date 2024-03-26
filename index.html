@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-4.9.0.min.css" />
+    <style>
+        .p-navigation__items {
+            position: relative;
+            right: 10px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .p-navigation__items {
+                right: auto;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
     <title>Chris Maynard Ampon</title>
 </head>
 <body class="is-paper">
@@ -37,21 +54,23 @@
     <div class="p-strip u-vertically-center">
     <section class="p-strip u-image-position">
             <div class="row">
-                <div class="col-4 u-align--right p-image">
+                <div class="col-5 col-md-4 u-align--right p-image">
                     <img src="profile.png" alt="profile" class="p-image--bordered" style="width:300px; height: 300px; border-radius: 50%;">
                 </div>
-                <div class="col-8 row u-vertically-center">
+                <div class="col-7 col-md-8 row u-vertically-center">
                     <h1 class="p-heading--1 u-no-margin is-accent" >CHRIS MAYNARD AMPON</h1>
                     <h5 class="p-heading--5 u-text--muted">BSIT 2A</h5>
                     <p class="p-text">
                         Hello! I'm Chris Maynard Ampon, a software engineer passionate about crafting innovative solutions. With a decade of experience and a degree from Stanford University, I specialize in full-stack development and data analytics. I thrive on collaborating with diverse teams to tackle complex challenges. Let's connect and explore how we can create something remarkable together.
                     </p>
-                    <a class="p-icon--github col-1" href="https://github.com/chrismaynardampon" target="_blank">GitHub</a>
-                    <a class="p-icon--twitter col-1" href="https://twitter.com/Hearteu02" target="_blank">Twitter</a>
-                    <a class="p-icon--facebook col-1" href="https://www.facebook.com/Hearteu02" target="_blank">Facebook</a>
-                    <a class="p-icon--linkedin col-1" href="https://www.linkedin.com/in/chris-maynard-ampon-0554aa256/" target="_blank">LinkedIn</a>
-                    <a class="p-icon--instagram col-1" href="https://www.instagram.com/hearteu02/" target="_blank">Instagram</a>
-                    <a class="p-icon--youtube col-1" href="https://www.youtube.com/@Hearteu02" target="_blank">Youtube</a>
+                    <div class="col-12">
+                        <a class="p-icon--github" href="https://github.com/chrismaynardampon" target="_blank">GitHub</a>
+                        <a class="p-icon--twitter" href="https://twitter.com/Hearteu02" target="_blank">Twitter</a>
+                        <a class="p-icon--facebook" href="https://www.facebook.com/Hearteu02" target="_blank">Facebook</a>
+                        <a class="p-icon--linkedin" href="https://www.linkedin.com/in/chris-maynard-ampon-0554aa256/" target="_blank">LinkedIn</a>
+                        <a class="p-icon--instagram" href="https://www.instagram.com/hearteu02/" target="_blank">Instagram</a>
+                        <a class="p-icon--youtube" href="https://www.youtube.com/@Hearteu02" target="_blank">Youtube</a>
+                    </div>
                 </div>
             </div>
     </section>
@@ -60,22 +79,22 @@
     <section class="p-strip is-dark u-equal-height" id="education">
         <div class="row">
             <h2 class="p-heading--2"> Education</h2>
-            <div class="p-card col-3 ">
+            <div class="p-card col-12 col-md-6 col-lg-3">
                 <h3 class="p-heading--3">Bachelor of Science in Information Technology</h3>
                 <p class="p-text--small-caps">Ateneo de Davao University</p>
                 <p class=" p-text--small">2022 - Present</p>
             </div>
-            <div class="p-card col-3">
+            <div class="p-card col-12 col-md-6 col-lg-3">
                 <h3 class="p-heading--3">Science Technology Engineering &amp; Mathematics</h3>
                 <p class="p-text--small-caps">Lyceum of the Philippines University-Cavite</p>
                 <p class="p-text--small u-align-text--small-to-default">2019 - 2021</p>
             </div>
-            <div class="p-card col-3">
+            <div class="p-card col-12 col-md-6 col-lg-3">
                 <h3 class="p-heading--3">Junior High School</h3>
                 <p class="p-text--small-caps">Tagum City National HighSchool</p>
                 <p class="p-text--small">2015 - 2019</p>
             </div>
-            <div class="p-card col-3">
+            <div class="p-card col-12 col-md-6 col-lg-3">
                 <h3 class="p-heading--3">Grade School</h3>
                 <p class="p-text--small-caps">Banaybanay Central Elementary School</p>
                 <p class="p-text--small">2009 - 2015</p>
